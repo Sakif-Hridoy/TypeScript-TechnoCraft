@@ -12,7 +12,7 @@ console.log(mixedArr)
 const user:{
     // values can be declared as type
     // organization:"Web Development",
-    organization: string,
+    readonly organization: string, // access modifer
     firstName: string,
     middleName?: string,
     lastName:string,
