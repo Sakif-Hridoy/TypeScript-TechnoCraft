@@ -10,6 +10,23 @@ const rollNumbers: GenericArray<number> = [4,7,11];
 
 const isEligbleList: GenericArray<boolean> = [true,false,true]
 
+
+const userList: GenericArray<{name:string; age:number}> = [
+    {
+        name:"Mr. X",
+        age:22,
+    },
+     {
+        name:"Mr. Y",
+        age:25,
+    },
+     {
+        name:"Mr. X",
+        age:22,
+    },
+
+] 
+
 console.log(friends)
 console.log(rollNumbers)
 console.log(isEligbleList)
