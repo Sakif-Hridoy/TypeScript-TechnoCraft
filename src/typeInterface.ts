@@ -12,8 +12,7 @@ type Role = {
     role: "admin" | "user"
 };
 
-type UserWithRole = User & Role
-
+type UserWithRole = User & Role;
 interface IUserWithRole extends IUser{
     role: "admin" | "user"
 }
@@ -26,7 +25,7 @@ const userOne: IUserWithRole = {
 
 const userTwo: IUser = {
     name:"Clouds",
-    age:55
+    age:55,
 }
 
 
